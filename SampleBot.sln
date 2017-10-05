@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleBot", "SampleBot\SampleBot.csproj", "{30F7904F-ABB3-42AE-8CFB-174616FE51BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samplepro2", "samplepro2\samplepro2.csproj", "{421B3411-BE8D-4567-804C-6A9951C3D24D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30F7904F-ABB3-42AE-8CFB-174616FE51BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F7904F-ABB3-42AE-8CFB-174616FE51BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F7904F-ABB3-42AE-8CFB-174616FE51BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F7904F-ABB3-42AE-8CFB-174616FE51BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421B3411-BE8D-4567-804C-6A9951C3D24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421B3411-BE8D-4567-804C-6A9951C3D24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421B3411-BE8D-4567-804C-6A9951C3D24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421B3411-BE8D-4567-804C-6A9951C3D24D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDBA62A6-BBC5-48AD-BE3D-85EAEA621129}
+	EndGlobalSection
+EndGlobal

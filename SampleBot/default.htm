@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script>
+
+        function javascript1()
+        {
+
+            var bot = new builder.UniversalBot(connector, function (session) {
+                session.sendTyping();
+                setTimeout(function () {
+                    session.send("Hello there...");
+                }, 10000);
+            });
+
+        }
+    </script>
+</head>
+<body style="font-family:'Segoe UI'">
+    <h1>SampleBot</h1>
+    <p>Describe your bot here and your terms of use etc.</p>
+    <p>Visit <a href="https://www.botframework.com/">Bot Framework</a> to register your bot. When you register it, remember to set your bot's endpoint to <pre>https://<i>your_bots_hostname</i>/api/messages</pre></p>
+    <span class="skype-button bubble " data-bot-id="915e0b06-8684-4faf-8b91-3435e02739c9"></span>
+    <script src="https://swc.cdn.skype.com/sdk/v1/sdk.min.js"></script>
+
+</body>
+</html>
