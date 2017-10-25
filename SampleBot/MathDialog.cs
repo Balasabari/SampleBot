@@ -14,6 +14,7 @@ namespace SampleBot.Dialogs
     {
         public int number1 { get; set; }
         public string finalmessage;
+        public string finalmessage1;
         public  Task StartAsync(IDialogContext context)
         {
             
